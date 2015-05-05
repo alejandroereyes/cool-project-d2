@@ -1,0 +1,132 @@
+.top {
+	height: 48px;
+	background-color: #118BC0; /*blue*/
+}
+
+.main {
+	height: 1110px;
+	background-color: #344051; /*bule gray*/
+	padding: 20px;
+}
+
+p {
+	color: white;
+	font-family: sans-serif;
+}
+
+.offer {
+
+}
+
+.bestPlace {
+
+}
+
+.createBox {
+	height: 72px;
+	width: 227px;
+	border: 11px solid #212934;
+	box-sizing: border-box;
+	margin: 0 auto;
+	background-color: #118BC0;
+	margin-top: 334px;
+}
+
+.pointer {
+	height: 21px;
+	background-color: white;
+	width: 50px;
+	margin: 0 auto;
+	margin-top: 181px;
+}
+
+.buzzWords {
+	height: 70px;
+	width: 302px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.buzzWords.a {
+	margin-top:133px;
+	margin-bottom: 15px;
+}
+
+.buzzWords.b {
+	margin-top: 15px;
+	margin-bottom: 15px
+}
+.buzzWords.c {
+	margin-top: 15px;
+	margin-bottom: 77px;
+}
+
+.lightBlue {
+	height: 188px;
+	background-color: #E8F0F5;
+}
+
+*.f {
+	height: 216px;
+	background-color: white;
+	border-style: solid;
+	border-color: #D1D3D7;
+	border-top-width: 15px;
+	border-bottom-width: 15px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+}
+
+.f.large {
+	padding: 24px;
+}
+
+.f.topf {
+	border-top-width: 32px;
+}
+
+.f.bottomf {
+	border-bottom-width: 30px;
+}
+
+.lightBlue.end {
+	height: 170px;
+	padding: 20px;
+}
+
+.createBoxEnd {
+	height: 72px;
+	width: 227px;
+	margin: 0 auto;
+	margin-top: 97px;
+	background-color: #118BC0;
+}
+
+.black {
+	height: 128px;
+	padding: 20px;
+	background-color: black;
+}
+
+.builder {
+	height: 24px;
+	margin-right: 163px;
+	margin-left: 163px;
+	background-color: white;
+}
+
+.bottomLine1 {
+	height: 16px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+div div p {
+	font-size: 13px;
+	display: inline-block;
+	margin: 15px;
+	text-align: center;
+}
+
+
+
