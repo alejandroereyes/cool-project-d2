@@ -1,4 +1,4 @@
-/*Stage One*/
+/*Stage Two*/
 .top {
 	height: 48px;
 	background-color: #118BC0; /*blue*/
@@ -8,7 +8,7 @@
 	height:32px;
 	width: 32px;
 	margin: 8px 15px;
-	background-color: white;
+	background-color: white; 
 	float: left;
 }
 
@@ -110,10 +110,12 @@ p {
 	border-bottom-width: 15px;
 	border-right-width: 10px;
 	border-left-width: 10px;
+	padding: 24px 16px 36px 16px;
+
 }
 
 .f.large {
-	padding: 24px;
+	height: 240px;
 }
 
 .f.topf {
@@ -125,13 +127,28 @@ p {
 }
 
 .midGray {
-	background-color: #FFFFFF; /*mid gray*/
+	background-color: #C7D2D8; /*mid gray*/
+	float: center;
 }
 
 .midGray.Sq {
 	height: 62px;
 	width: 62px;
-	margin-bottom: 0 auto;
+	margin: 0 auto;
+}
+
+.midGray.thinBar {
+	height: 22px;
+	margin-top: 12px;
+	margin-bottom: 18px;
+}
+
+.midGray.regBar {
+	height: 96px;
+}
+
+.midGray.fatBar {
+	height: 120px;
 }
 
 .lightBlue.end {
