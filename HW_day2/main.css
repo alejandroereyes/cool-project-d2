@@ -96,6 +96,34 @@ p {
 	margin-bottom: 77px;
 }
 
+.gray_small {
+	height: 70px;
+	width: 55px;
+	box-sizing: border-box;
+	border-top-width: 10px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-style: solid;
+	border-color: white;
+	background-color: #616E7F;
+	float: left;
+}
+
+.gray_long {
+	height: 70px;
+	width: 247px;
+	box-sizing: border-box;
+	border-top-width: 0px;
+	border-right-width: 4px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-style: solid;
+	border-color: white;
+	background-color: #616E7F;
+	float: right;
+}
+
 .lightBlue {
 	height: 188px;
 	background-color: #E8F0F5;
