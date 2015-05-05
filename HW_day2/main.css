@@ -4,6 +4,30 @@
 	background-color: #118BC0; /*blue*/
 }
 
+.logo {
+	height:32px;
+	width: 32px;
+	margin: 8px 15px;
+	background-color: white;
+	float: left;
+}
+
+.fullName {
+	height: 32px;
+	width: 118px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background-color: white;
+	float: left;
+}
+
+.logIn {
+	height: 48px;
+	width: 74px;
+	background-color: #0070A4;
+	float: right;
+}
+
 .main {
 	height: 1110px;
 	background-color: #344051; /*bule gray*/
@@ -98,6 +122,16 @@ p {
 
 .f.bottomf {
 	border-bottom-width: 30px;
+}
+
+.midGray {
+	background-color: #FFFFFF; /*mid gray*/
+}
+
+.midGray.Sq {
+	height: 62px;
+	width: 62px;
+	margin-bottom: 0 auto;
 }
 
 .lightBlue.end {
