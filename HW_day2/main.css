@@ -16,16 +16,20 @@ p {
 	font-size: 30px;
 }
 
-.slogan {
-	font-size: 1em;
-}
-
 .offer {
 	margin: 0 auto;
 	height: 31px;
 	background-color: #344051;
 	margin-top: 166px;
 	margin-bottom: 40px;
+}
+
+.bestPlace {
+	margin-top: 40px;
+}
+
+.slogan {
+	font-size: 1em;
 }
 
 .createBox {
