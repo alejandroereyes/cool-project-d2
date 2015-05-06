@@ -1,4 +1,4 @@
-/*Stage Two*/
+/*Stage Two done*/
 .top {
 	height: 48px;
 	background-color: #118BC0; /*blue*/
@@ -7,6 +7,7 @@
 .logo {
 	height:32px;
 	width: 32px;
+	margin: 0 auto;
 	margin: 8px 15px;
 	background-color: white; 
 	float: left;
@@ -17,15 +18,26 @@
 	width: 118px;
 	margin-top: 8px;
 	margin-bottom: 8px;
-	background-color: white;
+	background-color: #118BC0;
 	float: left;
+	padding-top: 5px;
+	font-family: sans-serif;
+	color: white;
+}
+
+.com {
+	color: #B4D5E5;
 }
 
 .logIn {
 	height: 48px;
 	width: 74px;
+	box-sizing: border-box;
 	background-color: #0070A4;
 	float: right;
+	color: white;
+	text-align: center;
+	padding: 15px 0px;
 }
 
 .main {
