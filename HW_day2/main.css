@@ -1,4 +1,4 @@
-/*Stage Three*/
+/*Stage Three done*/
 a {
 	text-decoration: none;
 }
@@ -121,13 +121,13 @@ p {
 	height: 70px;
 	width: 55px;
 	box-sizing: border-box;
-	border-top-width: 10px;
-	border-right-width: 0px;
-	border-bottom-width: 0px;
-	border-left-width: 0px;
+	border-top-width: 6px;
+	border-right-width: 2.5px;
+	border-bottom-width: 6px;
+	border-left-width: 2.5px;
 	border-style: solid;
-	border-color: white;
-	background-color: #616E7F;
+	border-color: #344051;
+	background-color: white;
 	float: left;
 }
 
@@ -140,9 +140,22 @@ p {
 	border-bottom-width: 10px;
 	border-left-width: 10px;
 	border-style: solid;
-	border-color: white;
-	background-color: #616E7F;
+	border-color: #344051;
+	background-color: #344051;
 	float: right;
+	padding: 6px 5px 0px 0px;
+}
+
+.b_tag {
+	color: white;
+	font-size: 20px;
+}
+
+.b_descrip{
+	color: white;
+	font-size: 14px;
+	display: block;
+	line-height: 2;
 }
 
 .lightBlue {
