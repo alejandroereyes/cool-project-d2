@@ -68,7 +68,6 @@ p {
 .offer {
 	margin: 0 auto;
 	height: 31px;
-	/*background-color: #344051;*/
 	margin-top: 166px;
 	margin-bottom: 40px;
 }
@@ -106,7 +105,6 @@ p {
 .buzzWords {
 	height: 70px;
 	width: 302px;
-	/*background-color: white;*/
 	margin: 0 auto;
 }
 
@@ -127,9 +125,28 @@ p {
 .gray_small {
 	height: 58px;
 	width: 50px;
-	box-sizing: border-box;	
-	background-color: white;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;	
 	float: left;
+}
+
+.buzzWords.a .gray_small {
+	background-image: url("src/tablet.png");
+	background-size: cover;
+}
+
+.buzzWords.b .gray_small {
+	background-image: url("src/newspaper.png");
+	background-size: cover;
+}
+
+.buzzWords.c .gray_small {
+	background-image: url("src/paint-brush.png");
+	background-size: cover;
 }
 
 .gray_long {
@@ -204,7 +221,40 @@ p {
 	background-color: #C7D2D8;
 	height: 62px;
 	width: 62px;
+	box-sizing: border-box;
 	margin: 0 auto;
+	border-radius: 50%;
+	border: 14px solid #C7D2D8;
+}
+
+.lightbulb {
+	background-image: url("src/lightbulb.png");
+	background-size: cover;
+}
+
+.cloud {
+	background-image: url("src/cloud.png");
+	background-size: cover;
+}
+
+.code {
+	background-image: url("src/code.png");
+	background-size: cover;
+}
+
+.comments {
+	background-image: url("src/comments.png");
+	background-size: cover;
+}
+
+.gift {
+	background-image: url("src/gift.png");
+	background-size: cover;
+}
+
+.globe {
+	background-image: url("src/globe.png");
+	background-size: cover;
 }
 
 .midGray.thinBar {
