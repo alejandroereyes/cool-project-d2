@@ -163,7 +163,8 @@ p {
 }
 
 *.f {
-	height: 216px;
+	height: 260px;
+	box-sizing: border-box;
 	background-color: white;
 	border-style: solid;
 	border-color: #D1D3D7;
@@ -176,7 +177,7 @@ p {
 }
 
 .f.large {
-	height: 240px;
+	height: 284px;
 }
 
 .f.topf {
@@ -188,11 +189,12 @@ p {
 }
 
 .midGray {
-	background-color: #C7D2D8; /*mid gray*/
+	background-color: white; /*mid gray*/
 	float: center;
 }
 
 .midGray.Sq {
+	background-color: #C7D2D8;
 	height: 62px;
 	width: 62px;
 	margin: 0 auto;
@@ -202,14 +204,30 @@ p {
 	height: 22px;
 	margin-top: 12px;
 	margin-bottom: 18px;
+	text-align: center;
+	line-height: 22px;
+}
+
+.f_tag {
+	color: #284B75;
+	vertical-align: middle;
+	font-size: 22px;
+}
+
+.f_descrip {
+	line-height: 1.5;
 }
 
 .midGray.regBar {
-	height: 96px;
+	height: 70px;
+	text-align: center;
+	padding: 0px 5px;
 }
 
 .midGray.fatBar {
-	height: 120px;
+	height: 80px;
+	text-align: center;
+	padding: 0px 5px;
 }
 
 .lightBlue.end {
