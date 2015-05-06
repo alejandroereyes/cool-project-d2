@@ -96,10 +96,12 @@ p {
 }
 .pointer {
 	height: 21px;
-	background-color: white;
 	width: 50px;
 	margin: 0 auto;
 	margin-top: 181px;
+	color: white;
+	font-size: 50px;
+	text-align: center;
 }
 
 .buzzWords {
