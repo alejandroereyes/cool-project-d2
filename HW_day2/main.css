@@ -1,4 +1,4 @@
-/*Stage Two done*/
+/*Stage Three*/
 a {
 	text-decoration: none;
 }
@@ -147,7 +147,19 @@ p {
 
 .lightBlue {
 	height: 188px;
+	box-sizing: border-box;
 	background-color: #E8F0F5;
+	color: #344051;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 22px;
+	line-height: 188px;
+}
+
+.speech1 {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 2;
 }
 
 *.f {
@@ -203,6 +215,12 @@ p {
 .lightBlue.end {
 	height: 170px;
 	padding: 20px;
+	line-height: 1;
+	padding: 20px;
+}
+
+.end_stat {
+	line-height: 2;
 }
 
 .createBoxEnd {
@@ -210,7 +228,7 @@ p {
 	width: 227px;
 	box-sizing: border-box;
 	margin: 0 auto;
-	margin-top: 97px;
+	margin-top: 35px;
 	background-color: #118BC0;
 	color: white;
 	font-size: 22px;
